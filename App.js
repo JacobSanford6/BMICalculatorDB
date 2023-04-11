@@ -2,6 +2,10 @@ import { StatusBar } from 'expo-status-bar';
 import { Component, useEffect, useState } from 'react';
 import { Alert, Pressable, SafeAreaView, StyleSheet, Text, TextInput, View } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import * as SplashScreen from 'expo-splash-screen';
+
+SplashScreen.preventAutoHideAsync();
+setTimeout(SplashScreen.hideAsync, 2000);
 
 export default function App() {
   let [bmi, setBmi] = useState(null);

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "BMICalculator",
-    "slug": "BMICalculator",
+    "name": "BMICalculatorDB",
+    "slug": "BMICalculatorDB",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/weights.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/weights.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#34495e"
     },
     "assetBundlePatterns": [
       "**/*"
